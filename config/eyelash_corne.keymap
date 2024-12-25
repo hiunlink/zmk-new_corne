@@ -86,7 +86,7 @@
             bindings = <
 &studio_unlock   &bt BT_CLR_ALL   &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3                         &mmv MOVE_UP                     &kp PG_UP      &mkp LCLK   &kp UP    &mkp RCLK  &mkp MB4          &trans
 &trans  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &trans        &trans        &rgb_ug RGB_EFF               &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp PG_DN  &kp LEFT     &kp DOWN  &kp RIGHT  &kp PRINTSCREEN  &bootloader
-&trans  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &trans  &kp C_MUTE                    &mmv MOVE_DOWN                   &kp HOME      &kp END     &bootloader  &sys_reset  &kp SCROLLLOCK   &kp PAUSE_BREAK
+&trans  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &trans  &kp C_MUTE                    &mmv MOVE_DOWN                   &kp HOME      &kp END     &msc SCRL_UP  &msc SCRL_DOWN  &kp SCROLLLOCK   &kp PAUSE_BREAK
                                 &trans      &trans      &kp LALT                                                                  &trans       &trans     &trans
             >;
             sensor-bindings = <&scroll_encoder>;
