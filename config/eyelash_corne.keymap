@@ -74,8 +74,8 @@
             display-name = "SYMBOL";
             bindings = <
 &kp TILDE  &kp EXCL      &kp AT        &kp HASH   &kp DLLR   &kp PRCNT                           &mmv MOVE_UP                     &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
-&trans  &bt BT_CLR    &mkp LCLK     &mkp MCLK  &mkp RCLK  &mkp MB4            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp UNDER  &kp EQUAL   &kp LBKT   &kp RBKT  &trans  &kp DQT  
-&trans  &out OUT_USB  &out OUT_BLE  &none      &none      &mkp MB5  &trans                    &mmv MOVE_DOWN                   &trans  &trans   &kp LBRC   &kp RBRC  &kp QMARK   &kp LGUI  
+&trans  &bt BT_CLR    &mkp LCLK     &mkp MCLK  &mkp RCLK  &mkp MB4            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp UNDER  &kp EQUAL  &kp LBKT   &kp RBKT  &Colon &kp DQT  
+&trans  &out OUT_USB  &out OUT_BLE  &none      &none      &mkp MB5  &trans                    &mmv MOVE_DOWN                   &trans  &trans   &kp LT   &kp GT  &kp QMARK   &kp LGUI  
                                     &trans     &trans     &kp SPACE                                                            &kp RET    &trans     &trans
             >;
             sensor-bindings = <&scroll_encoder>;
