@@ -124,7 +124,7 @@ layers:
   - {t: '=', s: +}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&Colon'
   - '"'
   - {t: '$$mdi:transfer$$', type: trans}
   - OUT USB
@@ -136,8 +136,8 @@ layers:
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '{'
-  - '}'
+  - <
+  - '>'
   - '?'
   - LGUI
   - {t: '$$mdi:transfer$$', type: trans}
