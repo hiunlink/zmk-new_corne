@@ -74,8 +74,8 @@ layers:
   - {t: '-', s: _}
   - +
   - {t: '$$mdi:transfer$$', type: trans}
-  - '{'
-  - '}'
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
   - '|'
   - {t: '$$mdi:transfer$$', type: trans}
   - F6
@@ -122,8 +122,8 @@ layers:
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - _
   - {t: '=', s: +}
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
+  - '{'
+  - '}'
   - ':'
   - '"'
   - {t: '$$mdi:transfer$$', type: trans}
