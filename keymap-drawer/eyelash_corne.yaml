@@ -41,7 +41,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: '$$mdi:keyboard-return$$', h: LGUI}
+  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:apple-keyboard-control$$
   - NUMBER
   - {t: '$$mdi:keyboard-space$$', h: NUMBER}
@@ -76,7 +76,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - '|'
+  - {t: \, s: '|'}
   - {t: '$$mdi:transfer$$', type: trans}
   - F6
   - F7
@@ -90,7 +90,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: \, s: '|'}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {type: held alternate}
@@ -123,9 +123,9 @@ layers:
   - _
   - {t: '=', s: +}
   - '{'
+  - '{'
   - '}'
-  - ':'
-  - '"'
+  - '|'
   - {t: '$$mdi:transfer$$', type: trans}
   - OUT USB
   - OUT BLE
