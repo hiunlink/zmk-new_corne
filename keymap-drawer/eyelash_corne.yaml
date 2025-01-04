@@ -25,8 +25,8 @@ layers:
   - H
   - {t: J, h: '$$mdi:apple-keyboard-control$$'}
   - {t: K, h: '$$mdi:apple-keyboard-shift$$'}
-  - L
-  - {t: ;, h: RGUI, s: ':'}
+  - {t: L, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: ;, s: ':'}
   - {t: '''', s: '"'}
   - '&td0'
   - Z
