@@ -44,7 +44,9 @@
         bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
         tap-ms = <30>;
     };
-
+   &mt {
+       tapping-term-ms = <100>;
+   };
     keymap {
         compatible = "zmk,keymap";
 
