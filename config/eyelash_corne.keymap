@@ -23,7 +23,7 @@
 #define ZMK_MOUSE_DEFAULT_SCRL_VAL 20    // 10
 
 &mt {
-    tapping-term-ms = <100>;
+    flavor = "tap-preferred";
 };
 
 / {
