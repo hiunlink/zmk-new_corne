@@ -22,6 +22,10 @@
 #define ZMK_MOUSE_DEFAULT_MOVE_VAL 1200  // 600
 #define ZMK_MOUSE_DEFAULT_SCRL_VAL 20    // 10
 
+&mt {
+    tapping-term-ms = <100>;
+};
+
 / {
     behaviors {
         td0: td0 {
@@ -44,9 +48,7 @@
         bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
         tap-ms = <30>;
     };
-   &mt {
-       tapping-term-ms = <100>;
-   };
+   
     keymap {
         compatible = "zmk,keymap";
 
